@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Assessment - Ivan Wu</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    
+    <body>
+    	<div class="wrapper clearfix">
+    		
+    		<header class="clearfix">
+    			<div class="head-element clearfix">
+    				<h1 class="logo pull-left">Client</h1>
+	                <div class="cart pull-right">
+	                	<label>CART</label>
+	                	<span class="items">ITEMS:</span> <span class="num-of-items" data-bind-number="num"></span>
+	                	<button type="button" class="btn-menu"></button>
+	                </div>
+    			</div>
+                <div class="head-navi grid clearfix">
+	                <nav class="col-75 pull-left">
+	                    <ul>
+	                        <li><a href="#">New Arrivals</a></li>
+	                        <li><a href="#">Tops</a></li>
+	                        <li><a href="#">Denim</a></li>
+	                        <li><a href="#">Dresses</a></li>
+	                        <li><a href="#">Jackets</a></li>
+	                        <li><a href="#">Knitwear</a></li>
+	                        <li><a href="#">PantS</a></li>
+	                        <li><a href="#">Skirts</a></li>
+	                        <li><a href="#">Accessories</a></li>
+	                    </ul>
+	                </nav>
+	                <aside class="col-25 pull-right">
+	                	<label for="inp-seearch">Search</label>
+	                	<input id="inp-seearch" type="text" class="inp-search" value="Enter a keyword"  />
+	                </aside>
+                </div>
+            </header>
+            
+            <div class="main clearfix">
+            	 
+            	 <div class="clearfix">
+            	 	 <a class="btn-back" href="#">Back to Product list</a>
+            	 </div>
+            	 
+            	 <div class="grid clearfix">
+	            	 <div class="product-img col-50 pull-left">
+	            	 	 <img src="img/product.jpg" alt="product" />
+	            	 </div>
+	            	 
+	            	 <div class="product-info col-50 pull-right">
+	            	 	 <h2>PRODUCT NAME</h2>
+	            	 	 <div class="breadcrumb">
+	            	 	 	<ul class="nav">
+	            	 	 		<li><a href="#">HOME</a></li>
+	            	 	 		<li><a href="#">PANTS & LEGGINGS</a></li>
+	            	 	 		<li>PANTS & LEGGINGS</li>
+	            	 	 	</ul>
+	            	 	 </div>
+	            	 	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum sodales nvallis. Curabitur quis felis quis tellus pretium sollicitudin. Integer dictum.</p>
+	            	     <div class="price">
+	            	     	<span class="discount">$19.95</span>
+	            	     	<span class="rrp">(WAS $39.95)</span>
+	            	     	<span class="total">Total: $<span data-bind-total="amount"></span></span>
+	            	     </div>
+	            	     <button type="button" class="btn-buy">BUY NOW</button>
+	            	     
+	            	     <div class="products-list">
+	            	     	  <table data-bind-list="product">
+	            	     	  	  
+	            	     	  </table>
+	            	     </div>
+	            	 </div>
+            	 </div>
+            </div>
+            
+            
+            <footer class="clearfix">
+                <div class="footer-navi grid clearfix">
+	                <nav class="col-68 pull-left">
+	                    <ul class="nav">
+	                        <li>&copy; CLIENT 2010 ALL RIGHTS RESERVED</li>
+	                        <li><a href="#">PRIVICY PROLICY</a></li>
+	                        <li><a href="#">TERMS AND CONDITIONS</a></li>
+	                        <li><a href="#">SITE BY AMBLIQUE</a></li>
+	                    </ul>
+	                </nav>
+	                <aside class="col-32 pull-right">
+	                	<ul class="nav">
+	                		<li><a href="http://www.mastercard.com.au/" target="_blank"><img src="img/icon-master.jpg" alt="Master" /></a></li>
+	                        <li><a href="http://www.visa.com.au/" target="_blank"><img src="img/icon-visa.jpg" alt="VISA" /></a></li>
+	                        <li><a href="https://www.paypal.com/au/webapps/mpp/home" target="_blank"><img src="img/icon-paypal.jpg" alt="Paypal" /></a></li>
+	                        <li><a href="https://www.americanexpress.com/australia/" target="_blank"><img src="img/icon-amex.jpg" alt="AMEX" /></a></li>
+	                        <li><a href="https://www.verisign.com.au/" target="_blank"><img src="img/icon-trust.jpg" alt="VeriSign Trust" /></a></li>
+	                	</ul>
+	                </aside>
+                </div>
+            </footer>
+    		
+    	</div>
+    	
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
